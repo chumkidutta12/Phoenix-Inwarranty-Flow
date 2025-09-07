@@ -35,10 +35,10 @@ jobs:
           -r cli,htmlextra
 
       - name: Newman Report
+        if: always() # ensure that the archive  executeted  irrespective 
         uses: action/upload-artifact@v4.6.2
         with:
           name: Newman Report
-          path: newman/*.html
-          path: newman/*.html
+                   path: newman/*.html
         
   
