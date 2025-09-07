@@ -16,7 +16,7 @@ on:
       steps:
       
        -name: Chckout the code
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v4.2.2
 
        -name: Install Nodejs and npm
         uses: actions/setup-node@v3.9.1
