@@ -39,6 +39,6 @@ jobs:
         uses: action/upload-artifact@v4.6.2
         with:
           name: Newman Report
-                   path: newman/*.html
+          path: newman/*.html
         
   
